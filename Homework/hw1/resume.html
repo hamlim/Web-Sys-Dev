@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matthew Hamlin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="content">
+      <!-- the above div container is used to properly format the background/ rounded
+        corners of the white content 'window' as i call it. It offers a pleasent way
+        of framing the content of the resume against a grey background. -->
+      
+      <!-- the following is some basic contact information to be presented at the 'head' of
+        the document, so that the reader knows first of all who the resume belongs to. -->
+      <h1>Matthew Hamlin </h1>
+      <div class="contactInfo">
+        <ul class="contactInfo">
+          <li>17803 Robinhood Lane</li>
+          <li>Snohomish, Washington 98290</li>
+        </ul>
+        <ul class="contactInfo">
+          <li>425-210-0980</li>
+          <li><a href=mailto:hamlim@outlook.com?subject=Resume%20Interest>hamlim@outlook.com</a></li>
+        </ul>
+      </div>
+      <!-- now begins the actuall content. The first thing we want the browser to render following 
+        the above is an image of myself, it will be floated to the left and allow for the text
+        of the next content to wrap around it on the right. -->
+      <img src="picture.jpg" alt="Matthew"/>
+      <!-- Now for the objective/Introduction to the resume, formatted into a paragraph tag. -->
+      <h2>Objective:</h2>
+      <p id="objectiveIntro">
+        To follow a dream of learning and executing my current knowledge in the Information  
+          Technology and Web Science field, and to develop skills for future opportunities
+          within the related fields.
+      </p>
+      
+      <!-- Now for the Education section. filled in with two sperate <ul>'s one for RPI the other
+        for high school. -->
+      <h2> Education: </h2>
+      <div id="education">
+        <h4>Secondary Education: </h4>
+          <ul id="highSchool">
+            <li class="schoolName"><a href="http://shs.sno.wednet.edu/" target="_newtab">Snohomish High School </a></li>
+            <li class="dates">2008 - 2012</li>
+              <!-- considered using the <time> tag here but it is not supported in many of the common browsers
+                today used, and so woul dbe essentially useless in the amount of semantic content provided 
+                in the code -->
+            <li class="details"> Graduated in the top 8% of my class with a GPA of 3.8. Recognized for extensive 
+              application and dedication to my studies and the community. </li>
+          </ul>
+        <h4> Tertiary Education: </h4>
+          <ul id="college">
+            <li class="schoolName"><a href="http://www.rpi.edu/" target="_newtab"> Rensselaer Polytechnic Institute</a></li>
+            <li class="degreeProgram">Bachelor's of Science, Majoring in Information Technology and Web Science</li>
+            <li class="dates">2012 - 2016 (expected)</li>
+            <li class="details">Currently holding a GPA of 2.91, changed majors at end of freshman year from
+              Computer Science to current major to pursue a dream of web development. </li>
+          </ul>    
+      </div>
+      
+      <!-- Now is the work experience section of the resume. here we need three work related jobs, and information about each -->
+      <!-- I have been thinking about implemented split sections between work and education, so education woul dbe floated left 
+        taking up 50% of the area and work would be floated right taking up the other 50% of the area but i will see if that looks 
+        nice or not. -->
+      <h2>Work Experience: </h2>
+      <div id="work">
+        <!-- first experience is at the local snohomish library. -->
+        <ul id="volunteer">
+          <li class="organization"><a href="http://www.sno-isle.org/?ID=1207" target="_newtab">Snohomish Sno-Isle Library</a></li>
+          <li class="title">Volunteer</li>
+          <li class="dates">2011 - 2012</li>
+          <li class="workDetails">Handled the cleaning, repair, and sorting of returned books and multimedia 
+            at the branch.</li>
+        </ul>
+        <!-- second experience is at the fairgrounds. -->
+        <ul id="fairgrounds">
+          <li class="organization"><a href="http://www.evergreenfair.org/" target="_newtab">Evergreen Fairgrounds</a></li>
+          <li class="title">Refuse Removal Crew Member</li>
+          <li class="dates">August 2011 - September 2011</li>
+          <li class="workDetails">Assumed a leadership role among my fellow workers in my crew helping to 
+            coordinate the schedule to keep the grounds clean and keep the fair running smoothly.</li>
+        </ul>
+        <!--third fictional response is at Kyma International -->
+        <ul id="kyma">
+          <li class="organization"><a href="http://www.c-quip.com/" target="_newtab">Kyma</a></li>
+          <li class="title">Consultant</li>
+          <li class="dates">June 2013 - Present</li>
+          <li class="workDetails">Helped working with ideas about general marketing, and also currently assisting in developing
+            an advanced web presence for the company.</li>
+        </ul>
+      </div>
+      <!-- the final section of the resume besides the hCard info below is the skills section. Where i will outline the skills i 
+        precieve to have and highlight them. -->
+      <h2>Skills: </h2>
+      <div id="skills">
+        <ol id="skillsList">
+          <li>Extreme attention to detail focusing on how the content/project looks and feels on a deeper level to the viewer.</li>
+          <li>Understanding of basic uses of Adobe Creative Suite products such as InDesign, Photoshop
+            and others.</li>
+          <li>Complete understanding of the Microsoft Office products including Word, Excel and 
+            Powerpoint.</li>
+          <li>Basic understanding of current popular operating systems used around the world, including
+            all current Windows platforms, current Mac OSx Mavericks, and Ubuntu.</li>
+          <li>Versatility in manual labor fields from simple cleaning to moving heavy boxes around.</li>
+          <li>Quick learner, if given a new product to learn about I will be able to understand 
+            its use and functions quickly.</li>
+          <li>Incredibly design orientated, common knowledge in multiple current design ideas and trends.</li>
+          <li>Competent in multiple programming languages including C++, Python, html, CSS, 
+            Javascript, PHP, and human languages including skilled understanding of English, basic Spanish and basic competency in other Germanic
+            languages.</li>
+        </ol>
+      </div>
+      
+      <!-- The following is the hCard information formatted using the website in 
+        the sources section of the README.txt file. Located at Sources: 1) and 2) -->
+      <footer>
+        <div id="hcard-Matthew-James-Hamlin" class="vcard">
+          <span class="fn n">
+          <span class="given-name">Matthew</span>
+          <span class="additional-name">James</span>
+          <span class="family-name">Hamlin</span>
+          </span>
+          <a class="email" href="mailto:hamlim@outlook,com">hamlim@outlook,com</a>
+          <div class="adr">
+            <div class="street-address">17803 Robinhood Lane</div>
+            <span class="locality">Snohomish</span>
+            <span class="region">Washington</span>
+            <span class="postal-code">98290</span>
+            <span class="country-name">USA</span>
+          </div>
+          <div class="tel">+1-425-210-0980</div>
+          <div><span class="category">Student</span></div>
+        </div>
+        <p> Background image from <a href="http://cahilart.deviantart.com/art/Wallpaper-Nighttime-City-260514459">here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
