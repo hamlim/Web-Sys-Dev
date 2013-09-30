@@ -1,1 +1,0 @@
-This repo is made to allow for version control code for my Web Systems Development class at RPI.
