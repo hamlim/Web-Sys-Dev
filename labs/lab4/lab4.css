@@ -1,0 +1,73 @@
+body {
+     background: #ffd796;
+     height:auto;
+}
+#mySongs {
+    font-size: 18px;
+    border-style: solid;
+    overﬂow: hidden;
+    width: 1150px;
+    margin:60px auto;
+    background: #a6caff;
+}
+ul {
+    ﬂoat: left;
+}
+ul li {
+    list-style: none;
+    text-align: left;
+    width: 120px;
+    height: 120px;
+}
+ul li:not([img]) {
+    padding: 10px 0 0 0;
+}
+ul#coverart {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+img {
+    width: 120px;
+    height: 120px;
+}
+#title {
+    font-variant: small-caps;
+    color: green;
+}
+#artist {
+    font-weight: bold;
+}
+#album {
+    font-style: italic;
+}
+#date, #song {
+    margin: 20px auto;
+    font-size: 80%;
+}
+#site {
+    font-size: 85%;
+}
+#genres, .genrecontainer {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    font-size: 90%;
+}
+.genrecontainer {
+    padding: 0;
+    margin: 0;
+}
+#genres li {
+    list-style: disc;
+    height: 12px;
+    color: red;
+}
+.footer li {
+    margin: 0 0 0 0;
+    height: 20px;
+    width: 1150px;
+    vertical-align: top;
+    text-indent: 500px;
+    font-size: 8px;
+    font-style: italic;
+}
